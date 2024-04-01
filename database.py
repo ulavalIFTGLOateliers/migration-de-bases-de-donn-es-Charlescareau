@@ -10,7 +10,6 @@ from sql_utils import run_sql_file
 
 class Database:
     def __init__(self):
-
         load_dotenv()
 
         self.host = os.environ.get("HOST")
